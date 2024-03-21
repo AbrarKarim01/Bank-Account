@@ -22,6 +22,7 @@ Define bank account operations
 2. Configure conditional statements to implement the logic of withdrawals and deposits in bank accounts. 
 
 ## Manage the bank account
+After a bank account is created and operations are defined, process user input commands to manage a bank account.
 
 1. Use functions to manage money withdrawals and deposits.
 2. Use loops to process multiple user commands for the given bank account.
