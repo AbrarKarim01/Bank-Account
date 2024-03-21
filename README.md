@@ -1,5 +1,5 @@
 # The bank account project
-A simple Bank Account Project, created for the course Meta: Programming Fundamentals in Kotlin.
+A simple Bank Account Project, created with Kotlin for learning Mobile Application Development, and for the course META: Programming Fundamentals in Kotlin,  learning sessions.
 
 ## Scopes
 
