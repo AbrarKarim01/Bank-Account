@@ -6,8 +6,8 @@ fun main() {
     var accountType: String = ""
     var userChoice: Int = 0
 
-    var accountBalance: Int = (0 .. 1000).random()
-    val money : Int = (1 .. 1000).random()
+
+
     var output: Int = 0
 
     println("Welcome to your banking system.")
@@ -35,6 +35,15 @@ fun main() {
         }
     }
 
+    println("You have created a $accountType account")
+
+
+    var accountBalance: Int = (0 .. 1000).random()
+    println("The checking balance is ${accountBalance} dollars.")
+
+    val money : Int = (1 .. 1000).random()
+    println("The amount you transferred is ${money} dollars.")
+
     fun withdraw(amount: Int): Int{
 
        accountBalance = accountBalance - amount
@@ -52,7 +61,6 @@ fun main() {
         }else {
             return withdraw(amount)
         }
-
     }
 
     fun deposit(amount: Int): Int {
@@ -77,14 +85,7 @@ fun main() {
         }
     }
 
-    output = debitWithDraw(money)
-    output = creditDeposit(money)
 
-    println("You have created a $accountType account")
-    println("Your current balance is $accountBalance dollars")
-    println("The amount you transferred is ${money} dollars")
-    println("The amount you withdraw is $output dollars")
-    println("Your current balance is ${withdraw(money)} dollars")
 
 }
 
